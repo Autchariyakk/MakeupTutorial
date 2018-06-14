@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ln3"
+        android:layout_width="800dp"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toEndOf="@+id/ln2"
+
+        >
+
+        <TextView
+            android:id="@+id/tv16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:text="What are you working on ?"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:layout_toEndOf="@+id/tv16"
+            android:text="Dribbble is Show and tell for creatives."
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/tv18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTop"
+            android:layout_toEndOf="@+id/tv17"
+            android:text="   Singnup as Spectator"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:id="@+id/tv19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv16"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="POPULAR"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/tv20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv16"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/tv19"
+            android:text="EVERYONE"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:id="@+id/tv21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv16"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/tv20"
+            android:text="FREES"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:id="@+id/tv22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv16"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/tv21"
+            android:text="DEBUST"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:id="@+id/tv23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv16"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/tv22"
+            android:text="PLAYOFFS"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv20"
+            android:layout_marginStart="8dp"
+            android:background="@color/colorBlack" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="200dp">
+
+            <ImageView
+                android:id="@+id/imv5"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/c6" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tva1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva2"
+                    android:drawableStart="@drawable/ic_visibility_black_24dp"
+                    android:text="20" />
+
+                <TextView
+                    android:id="@+id/tva2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva3"
+                    android:drawableStart="@drawable/ic_mode_comment_black_24dp"
+                    android:text="33" />
+
+                <TextView
+                    android:id="@+id/tva3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:drawableStart="@drawable/ic_favorite_black_24dp"
+                    android:text="77" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:drawableStart="@drawable/ic_attach_file_black_24dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/H1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/cv1"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pinkheart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv1"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/H1"
+            android:text="Justable"
+            android:textColor="@color/colorBlue" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="200dp"
+            android:layout_toEndOf="@+id/cv1">
+
+            <ImageView
+                android:id="@+id/imv6"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/c5" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tva4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva5"
+                    android:drawableStart="@drawable/ic_visibility_black_24dp"
+                    android:text="20" />
+
+                <TextView
+                    android:id="@+id/tva5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva6"
+                    android:drawableStart="@drawable/ic_mode_comment_black_24dp"
+                    android:text="33" />
+
+                <TextView
+                    android:id="@+id/tva6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:drawableStart="@drawable/ic_favorite_black_24dp"
+                    android:text="77" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/H2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/cv1"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pinkheart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv1"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/H2"
+            android:text="Justable"
+            android:textColor="@color/colorBlue" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="200dp"
+            android:layout_toEndOf="@+id/cv2">
+
+            <ImageView
+                android:id="@+id/imv8"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/c4" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tva8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva9"
+                    android:drawableStart="@drawable/ic_visibility_black_24dp"
+                    android:text="20" />
+
+                <TextView
+                    android:id="@+id/tva9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva10"
+                    android:drawableStart="@drawable/ic_mode_comment_black_24dp"
+                    android:text="33" />
+
+                <TextView
+                    android:id="@+id/tva10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:drawableStart="@drawable/ic_favorite_black_24dp"
+                    android:text="77" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:drawableStart="@drawable/ic_attach_file_black_24dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/H3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/cv3"
+            android:layout_marginStart="580dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pinkheart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv1"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/H3"
+            android:text="Justable"
+            android:textColor="@color/colorBlue" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cv1"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/imv9"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/c3" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tva11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva12"
+                    android:drawableStart="@drawable/ic_visibility_black_24dp"
+                    android:text="20" />
+
+                <TextView
+                    android:id="@+id/tva12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva13"
+                    android:drawablePadding="4dp"
+                    android:drawableStart="@drawable/ic_mode_comment_black_24dp"
+                    android:text="33" />
+
+                <TextView
+                    android:id="@+id/tva13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:drawableStart="@drawable/ic_favorite_black_24dp"
+                    android:text="77" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/H4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/cv4"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pinkheart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv4"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/H4"
+            android:text="Justable"
+            android:textColor="@color/colorBlue" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cv1"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/cv4">
+
+            <ImageView
+                android:id="@+id/imv10"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/c2" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tva14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva15"
+                    android:drawableStart="@drawable/ic_visibility_black_24dp"
+                    android:text="20" />
+
+                <TextView
+                    android:id="@+id/tva15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva16"
+                    android:drawableStart="@drawable/ic_mode_comment_black_24dp"
+                    android:text="33" />
+
+                <TextView
+                    android:id="@+id/tva16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:drawableStart="@drawable/ic_favorite_black_24dp"
+                    android:text="77" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/H5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/cv4"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pinkheart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv4"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/H5"
+            android:text="Justable"
+            android:textColor="@color/colorBlue" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cv1"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/cv5">
+
+            <ImageView
+                android:id="@+id/imv11"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/c1" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tva17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva18"
+                    android:drawableStart="@drawable/ic_visibility_black_24dp"
+                    android:text="20" />
+
+                <TextView
+                    android:id="@+id/tva18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@+id/tva19"
+                    android:drawableStart="@drawable/ic_mode_comment_black_24dp"
+                    android:text="33" />
+
+                <TextView
+                    android:id="@+id/tva19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:drawableStart="@drawable/ic_favorite_black_24dp"
+                    android:text="77" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/H6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/cv4"
+            android:layout_marginStart="580dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pinkheart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv4"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/H6"
+            android:text="Justable"
+            android:textColor="@color/colorBlue" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/MarginTopPin"
+            android:text="Carson Thailand"
+            android:textSize="@dimen/Content"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:text=" Leead Designer - $80K + Four Day week"
+            android:textSize="@dimen/Content"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn1"
+            android:layout_below="@+id/tv5"
+            android:layout_marginTop="20dp"
+            android:text="POPULAR TAGS"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/Header"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv6"
+            android:layout_marginTop="20dp"
+            android:text="logo" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv6"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/btn2"
+            android:text="design" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv6"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/btn3"
+            android:text="web" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn2"
+            android:text="logo" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn3"
+            android:layout_toEndOf="@+id/btn2"
+            android:text="design" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn4"
+            android:layout_toEndOf="@+id/btn3"
+            android:text="web" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn8"
+            android:layout_marginTop="20dp"
+            android:text="BROWSE BY COLOR  "
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/Header"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/imv7"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv7"
+            android:src="@drawable/tabcolor" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv7"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/imv7"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/map" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv7"
+            android:text="PROJECT"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/Header"
+            android:textStyle="bold"
+
+            />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/tv8">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/web" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv8"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@+id/tv8"
+            android:text="CardFlick"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv9"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/cv8"
+            android:text="21 Shots
+Updated 3 minutes ago" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/MarginTop"
+        android:background="@color/colorGrey"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/MarginAppname"
+            android:padding="@dimen/PADDINGMENU"
+            android:text="@string/Name"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Header" />
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv1"
+            android:padding="@dimen/PADDINGMENU"
+            android:text="Shots"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Menu" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv10"
+            android:padding="@dimen/PADDINGMENU"
+            android:text="Player"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Menu" />
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv11"
+            android:padding="@dimen/PADDINGMENU"
+            android:text="Explore"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Menu" />
+
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv12"
+            android:padding="@dimen/PADDINGMENU"
+            android:text="Jobe"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Menu" />
+
+        <TextView
+            android:id="@+id/tv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/tv13"
+            android:padding="@dimen/PADDINGMENU"
+            android:text="About"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Menu" />
+
+        <TextView
+            android:id="@+id/tv15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/edt1"
+            android:padding="@dimen/PADDINGMENU"
+            android:text="Sign In"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Menu" />
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="248dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_toStartOf="@+id/btngo"
+            android:background="@drawable/bg_search"
+            android:drawableStart="@drawable/ic_search"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Search"
+            android:textColor="#C0C0C0"
+
+            />
+
+        <Button
+            android:id="@+id/btngo"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/btngo"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="GO"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ln2"
+        android:layout_width="@dimen/MarginStart"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="239dp">
+
+        <ImageView
+            android:id="@+id/imv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="118dp"
+            android:src="@drawable/web" />
+
+        <ImageView
+            android:id="@+id/imv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imv1"
+            android:src="@drawable/webd"
+
+            />
+
+        <ImageView
+            android:id="@+id/imv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imv2"
+            android:src="@drawable/webdrive"
+
+            />
+
+        <ImageView
+            android:id="@+id/imv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imv3"
+            android:src="@drawable/webs"
+
+            />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

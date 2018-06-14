@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Header">24sp</dimen>
+    <dimen name="Content">16sp</dimen>
+    <dimen name="Menu">18sp</dimen>
+    <dimen name="MarginTopPin">80dp</dimen>
+    <dimen name="MarginStart">150dp</dimen>
+    <dimen name="MarginTop">50dp</dimen>
+    <dimen name="MarginTopButton">110dp</dimen>
+    <dimen name="MarginTopCardview">170dp</dimen>
+    <dimen name="MarginAppname">170dp</dimen>
+    <dimen name="MarginMenu">180dp</dimen>
+    <dimen name="PADDINGMENU">10dp</dimen>
+</resources>
